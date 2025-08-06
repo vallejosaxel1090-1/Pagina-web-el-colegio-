@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tecnicaturas  - EETN3 "Islas Malvinas"</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="img/logo-eetn3.png" alt="Logo EETN3 Islas Malvinas">
+            <h1>EETN3 "Islas Malvinas"</h1>
+        </div>
+        <nav aria-label="Navegación Principal">
+            <button class="nav-toggle" aria-label="Abrir menú de navegación" aria-expanded="false">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="propuesta.html">Tecnicaturas</a></li>
+                <li><a href="galeria.html">Galería</a></li>
+                <li><a href="noticias.html">Noticias</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="propuesta" class="section-padded">
+            <div class="container">
+                <h2>Tecnicaturas</h2>
+                <div class="cards-grid">
+                    <div class="card" tabindex="0" role="button" aria-expanded="false" aria-controls="modal-secundario">
+                        <h3>Tecnicatura en programacion</h3>
+                        <p> El/la tecnico en progamacion son  capaces de diseñar, desarrollar, implementar y mantener sistemas informáticos</p>
+                        <button class="btn btn-tertiary read-more" data-target="modal-secundario">plan de estudio</button>
+                    </div>
+                    <div class="card" tabindex="0" role="button" aria-expanded="false" aria-controls="modal-especialidades">
+                        <h3>Tecnicatura en servicios turisticos</h3>
+                        <p>El/la Técnico Superior en Turismo está capacitado/a para: Gestionar y administrar empresas de Alojamientos Turísticos.</p>
+                        <button class="btn btn-tertiary read-more" data-target="modal-especialidades">Plan de estudio</button>
+                    </div>
+                    <div class="card" tabindex="0" role="button" aria-expanded="false" aria-controls="modal-practicas">
+                        <h3>Mestro mayor de obra</h3>
+                        <p>El Maestro Mayor de Obras está capacitado para manifestar conocimientos, habilidades,
+destrezas, valores y actitudes en situaciones reales de trabajo, conforme a criterios de
+profesionalidad propios de su área y de responsabilidad social</p>
+                        <button class="btn btn-tertiary read-more" data-target="modal-practicas">Plan de estudio</button>
+                    </div>
+                   
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container footer-grid">
+            <div class="footer-column">
+                <h4>EETN3 "Islas Malvinas"</h4>
+                <p>Formando líderes técnicos y ciudadanos comprometidos en Lanús.</p>
+                <div class="social-links-footer">
+                    <a href="https://www.facebook.com/EETN3Lanus" target="_blank" rel="noopener noreferrer" aria-label="Facebook de EETN3"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" target="_blank" rel="noopener noreferrer" aria-label="Instagram de EETN3"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="footer-column">
+                <h4>Navegación Rápida</h4>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="propuesta.html">Tecnicaturas</a></li>
+                    <li><a href="galeria.html">Galería</a></li>
+                    <li><a href="noticias.html">Noticias</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h4>Contacto</h4>
+                <p>Acevedo 2778, Remedios de Escalada</p>
+                <p>Lanús, Buenos Aires, Argentina</p>
+                <p>Tel: (011) 4248-3115</p>
+                <p>Email: tecnica3lanus@abc.gob.ar</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2025 EETN3 "Islas Malvinas". Todos los derechos reservados.</p>
+            <p><a href="#">Política de Privacidad</a> | <a href="#">Términos de Uso</a></p>
+        </div>
+    </footer>
+
+    <div id="modal-secundario" class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-secundario-title">
+        <div class="modal-content">
+            <button class="close-button" aria-label="Cerrar">×</button>
+            <h4 id="modal-secundario-title">Nivel Secundario Técnico</h4>
+            <div class="tabs-container">
+                <div class="tab-buttons" role="tablist">
+                    <button class="tab-button active" data-tab="secundario-tab1" role="tab" aria-selected="true" aria-controls="secundario-tab1-content" id="secundario-tab1-button">Ciclo Básico</button>
+                    <button class="tab-button" data-tab="secundario-tab2" role="tab" aria-selected="false" aria-controls="secundario-tab2-content" id="secundario-tab2-button">Ciclo Superior</button>
+                    <button class="tab-button" data-tab="secundario-tab3" role="tab" aria-selected="false" aria-controls="secundario-tab3-content" id="secundario-tab3-button">Plan de Estudios</button>
+                </div>
+                <div class="tab-content active" id="secundario-tab1-content" role="tabpanel" aria-labelledby="secundario-tab1-button">
+                    <h5>Ciclo Básico (1º a 3º Año)</h5>
+                    <p>El Ciclo Básico de la EETN3 proporciona una formación fundamental en diversas áreas del conocimiento. Se centra en el desarrollo de habilidades clave en <b>Matemática, Lengua, Ciencias Naturales, Ciencias Sociales, Arte, Educación Sexual Integral y Educación Física</b>, junto con una introducción a los principios tecnológicos a través de talleres iniciales. Este ciclo es esencial para sentar las bases académicas y vocacionales de nuestros estudiantes, preparándolos para la elección de su especialidad en el ciclo superior.</p>
+                </div>
+                <div class="tab-content" id="secundario-tab2-content" role="tabpanel" aria-labelledby="secundario-tab2-button">
+                    <h5>Ciclo Superior (4º a 7º Año)</h5>
+                    <p>Este período se caracteriza por la <b>intensificación de la formación técnica y científica</b>, la realización de <b>prácticas profesionalizantes</b> y la preparación para la inserción en el mundo laboral o la continuación de estudios universitarios. Nuestras especialidades incluyen:</p>
+                   
+                </div>
+                <div class="tab-content" id="secundario-tab3-content" role="tabpanel" aria-labelledby="secundario-tab3-button">
+                    <h5>Plan de Estudios General</h5>
+                    <p> La Tecnicatura en Programación tiene como misión preparar al estudiantado en habilidades técnicas y conocimientos prácticos para trabajar en el campo de desarrollo y programación de software. Nuestro plan de estudios está diseñado para brindar una educación técnica integral, combinando teoría y práctica para formar profesionales competentes y éticos. Para una visión detallada de las materias y contenidos por año y especialidad, puedes descargar nuestro plan de estudios completo en formato PDF.</p>
+                    <a href="#" download class="btn btn-download"><i class="fas fa-download"></i> Descargar Plan de Estudios PDF</a>
+                    <p class="small-text"><i>(El enlace de descarga es un marcador de posición. Reemplazar con el archivo real.)</i></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="modal-especialidades" class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-especialidades-title">
+        <div class="modal-content">
+            <button class="close-button" aria-label="Cerrar">×</button>
+            <h4 id="modal-especialidades-title">Tecnicatura en servicios turisticos</h4>
+            <div class="tabs-container">
+                <div class="tab-buttons" role="tablist">
+                    <button class="tab-button active" data-tab="especialidades-tab1" role="tab" aria-selected="true" aria-controls="especialidades-tab1-content" id="especialidades-tab1-button">Ciclo Basico</button>
+                    <button class="tab-button" data-tab="especialidades-tab2" role="tab" aria-selected="false" aria-controls="especialidades-tab2-content" id="especialidades-tab2-button">Ciclo Superior</button>
+                    <button class="tab-button" data-tab="especialidades-tab3" role="tab" aria-selected="false" aria-controls="especialidades-tab3-content" id="especialidades-tab3-button">Plan de estudios</button>
+                </div>
+                <div class="tab-content active" id="especialidades-tab1-content" role="tabpanel" aria-labelledby="especialidades-tab1-button">
+                   <h5>Ciclo Básico (1º a 3º Año)</h5>
+                    <p>El Ciclo Básico de la EETN3 proporciona una formación fundamental en diversas áreas del conocimiento. Se centra en el desarrollo de habilidades clave en <b>Matemática, Lengua, Ciencias Naturales, Ciencias Sociales, Arte, Educación Sexual Integral y Educación Física</b>, junto con una introducción a los principios tecnológicos a través de talleres iniciales. Este ciclo es esencial para sentar las bases académicas y vocacionales de nuestros estudiantes, preparándolos para la elección de su especialidad en el ciclo superior.</p>
+                </div>
+                <div class="tab-content" id="especialidades-tab2-content" role="tabpanel" aria-labelledby="especialidades-tab2-button">
+                    <h5>Ciclo Superior (4º a 7º Año)</h5>
+                    <p>Este período se caracteriza por la <b>intensificación de la formación técnica y científica</b>, la realización de <b>prácticas profesionalizantes</b> y la preparación para la inserción en el mundo laboral o la continuación de estudios universitarios. Nuestras especialidades incluyen:</p>
+                </div>
+                <div class="tab-content" id="especialidades-tab3-content" role="tabpanel" aria-labelledby="especialidades-tab3-button">
+                   <h5>Plan de Estudios General</h5>
+                    <p> El/la Técnica en Servicios Turísticos estará capacitado para asistir al turista
+en función de los productos y servicios ofrecidos en el mercado zonal y
+regional atendiendo a las particularidades requeridas por los mismos. Nuestro plan de estudios está diseñado para brindar una educación técnica integral, combinando teoría y práctica para formar profesionales competentes y éticos. Para una visión detallada de las materias y contenidos por año y especialidad,  puedes descargar nuestro plan de estudios completo en formato PDF.</p>
+                    <a href="#" download class="btn btn-download"><i class="fas fa-download"></i> Descargar Plan de Estudios PDF</a>
+                    <p class="small-text"><i>(El enlace de descarga es un marcador de posición. Reemplazar con el archivo real.)</i></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="modal-practicas" class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-practicas-title">
+        <div class="modal-content">
+            <button class="close-button" aria-label="Cerrar">×</button>
+            <h4 id="modal-practicas-title">Maestro mayoir de obra</h4>
+            <p>El Maestro Mayor de Obras está capacitado para manifestar conocimientos, habilidades,
+destrezas, valores y actitudes en situaciones reales de trabajo, conforme a criterios de
+profesionalidad propios de su área y de responsabilidad social al:
+“Analizar las necesidades de un cliente y elaborar el programa de necesidades”
+“Elaborar anteproyectos de soluciones espaciales edilicias constructivas y técnicas para un
+programa de necesidades determinado”
+“Proyectar soluciones espaciales edilicias, constructivas y técnicas para un anteproyecto
+determinado”
+“Dirigir la ejecución de procesos constructivos en genera.”
+“Gestionar y administrar la ejecución del proceso constructivo en general”
+“Prestar servicios de evaluación técnica a terceros”
+“Asesorar técnicamente a terceros</p>
+            <p>Trabajamos con una red de empresas y organismos de la región para ofrecer oportunidades diversas y enriquecedoras a nuestros alumnos.</p>
+        </div>
+    </div>
+
+    <div id="modal-extracurriculares" class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-extracurriculares-title">
+        <div class="modal-content">
+            <button class="close-button" aria-label="Cerrar">×</button>
+            <h4 id="modal-extracurriculares-title">Actividades Extracurriculares</h4>
+            <p>En la EETN3, creemos en el desarrollo integral de nuestros estudiantes más allá del currículo técnico. Por eso, ofrecemos una variedad de actividades extracurriculares diseñadas para complementar su formación, fomentar sus talentos y promover un estilo de vida saludable y participativo:</p>
+            <ul>
+                <li><strong>Club de Robótica y Programación:</strong> Participación en competencias nacionales y desarrollo de proyectos innovadores.</li>
+                <li><strong>Talleres de Arte y Cultura:</strong> Música, teatro, expresión plástica, para desarrollar la creatividad.</li>
+                <li><strong>Deportes:</strong> Equipos de fútbol, básquet, vóley que compiten a nivel intercolegial.</li>
+                <li><strong>Proyectos Solidarios y de Extensión Comunitaria:</strong> Iniciativas para aplicar el conocimiento técnico en beneficio de la comunidad local.</li>
+                <li><strong>Charlas y Workshops:</strong> Con profesionales de la industria y ex-alumnos, para inspirar y orientar vocacionalmente.</li>
+            </ul>
+            <p>Estas actividades enriquecen la experiencia educativa, promueven el trabajo en equipo, el liderazgo y la responsabilidad social.</p>
+        </div>
+    </div>
+
+    <script src="js/script.js" defer></script>
+</body>
+</html>
